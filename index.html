@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xumoyun — Dev & Gamer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bgc"></canvas>
+
+<!-- ══ NAVBAR ══ -->
+<nav class="z1">
+  <a href="#hero" class="logo">XUMOYUN</a>
+  <button class="burger" id="burger" aria-label="Menyu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-ul" id="navul">
+    <li><a href="#hero">Men Haqimda</a></li>
+    <li><a href="#goals">Maqsadlarim</a></li>
+    <li><a href="#interests">Qiziqishlar</a></li>
+    <li><a href="#game">Mening O'yinim</a></li>
+  </ul>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero" class="z1">
+<div class="wrap">
+<div class="hero-grid">
+  <!-- TEXT -->
+  <div class="rev">
+    <div class="eyebrow"><i class="fa-solid fa-terminal fa-xs"></i>&nbsp; Portfolio · Samarqand 2026</div>
+    <h1 class="hero-h1">
+      Assalomu Alaykum!<br>Men <em>Xumoyun.</em>
+    </h1>
+    <p class="hero-p">
+      2010-yilda tug'ilganman. Kelajakdagi maqsadim —
+      <strong style="color:var(--text);font-weight:700">TATU</strong>
+      (Toshkent Axborot Texnologiyalari Universiteti) Dasturiy
+      Injenering fakultetida o'qish. Hozirda freelance dasturlash
+      va dizayn sohasida tajriba to'playapman.
+    </p>
+    <div class="chips">
+      <span class="chip cb"><i class="fa-solid fa-code fa-xs"></i> Dasturchi</span>
+      <span class="chip cr"><i class="fa-solid fa-gamepad fa-xs"></i> Geymer</span>
+      <span class="chip cp"><i class="fa-solid fa-pen-nib fa-xs"></i> Dizayner</span>
+      <span class="chip cg"><i class="fa-solid fa-graduation-cap fa-xs"></i> Talaba</span>
+    </div>
+    <div class="hero-btns">
+      <a href="#game" class="btn btn-blue"><i class="fa-solid fa-play"></i> O'yin O'ynash</a>
+      <a href="#interests" class="btn btn-ghost"><i class="fa-solid fa-gamepad"></i> O'yinlar</a>
+      <a href="#goals" class="btn btn-ghost"><i class="fa-solid fa-bullseye"></i> Rejalar</a>
+    </div>
+    <div class="skills-row">
+      <span class="skill-pill"><i class="fa-brands fa-html5 fa-xs"></i> HTML</span>
+      <span class="skill-pill"><i class="fa-brands fa-css3-alt fa-xs"></i> CSS</span>
+      <span class="skill-pill"><i class="fa-brands fa-js fa-xs"></i> JavaScript</span>
+      <span class="skill-pill"><i class="fa-brands fa-python fa-xs"></i> Python</span>
+      <span class="skill-pill"><i class="fa-brands fa-figma fa-xs"></i> Figma</span>
+       <span class="skill-pill"><i class="fa-brands fa-figma fa-xs"></i> infografika yasash</span>
+    </div>
+  </div>
+  <!-- AVATAR -->
+  <div class="av-wrap rev" style="transition-delay:.15s">
+    <div class="av-ring">
+      <img src="portfolio.jpg" alt="Xumoyun"
+           onerror="this.style.display='none';document.getElementById('avfb').style.display='flex'">
+      <div class="av-fb" id="avfb" style="display:none">X</div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- ══ GOALS ══ -->
+<section id="goals" class="z1">
+<div class="wrap">
+  <div class="rev">
+    <p class="sec-eye">// 2025 – 2026 Rejalar</p>
+    <h2 class="sec-h2">Yillik Maqsadlarim</h2>
+    <div class="sec-bar"></div>
+  </div>
+  <div class="goals-grid">
+    <!-- card 1 -->
+    <div class="gcard rev">
+      <div class="gico gico-b"><i class="fa-solid fa-calculator"></i></div>
+      <h3>Matematika Milliy Sertifikati</h3>
+      <p>Milliy matematika olimpiadalariga tayyorlanish va rasmiy davlat sertifikatini olish — akademik maqsad №1.</p>
+      <div class="pbar"><div class="pfill pf-blue" data-p="72"></div></div>
+      <div class="pmeta"><span>Jarayonda</span><span>72%</span></div>
+      <span class="sbadge sb-yellow"><i class="fa-solid fa-circle-notch fa-spin fa-xs"></i>&nbsp;Davom etmoqda</span>
+    </div>
+    <!-- card 2 -->
+    <div class="gcard rev" style="transition-delay:.1s">
+      <div class="gico gico-r"><i class="fa-solid fa-language"></i></div>
+      <h3>English CEFR Multi-level Sertifikati</h3>
+      <p>IELTS & CEFR darajalarida ingliz tilini puxta egallash — global karyeraym uchun asosiy qurol.</p>
+      <div class="cefr">
+        <span class="cl cl-done">A1</span>
+        <span class="cl cl-done">A2</span>
+        <span class="cl cl-done">B1</span>
+        <span class="cl cl-now">B2 ⚡</span>
+        <span class="cl cl-soon">C1</span>
+        <span class="cl cl-soon">C2</span>
+      </div>
+      <div class="pbar" style="margin-top:1rem"><div class="pfill pf-red" data-p="60"></div></div>
+      <div class="pmeta"><span>B2 — maqsad</span><span>60%</span></div>
+      <span class="sbadge sb-blue"><i class="fa-solid fa-bolt fa-xs"></i>&nbsp;Jarayonda</span>
+    </div>
+    <!-- card 3 bonus -->
+    <div class="gcard rev" style="transition-delay:.2s">
+      <div class="gico" style="background:rgba(168,85,247,.12);color:var(--purple)"><i class="fa-solid fa-laptop-code"></i></div>
+      <h3>Freelance Loyihalar</h3>
+      <p>Haqiqiy mijozlar uchun veb-saytlar va UI dizaynlar yaratish orqali real tajriba to'plash.</p>
+      <div class="pbar"><div class="pfill" style="background:linear-gradient(90deg,#7c22cc,var(--purple))" data-p="45"></div></div>
+      <div class="pmeta"><span>Loyihalar soni</span><span>45%</span></div>
+      <span class="sbadge" style="background:rgba(168,85,247,.1);color:var(--purple);border-color:rgba(168,85,247,.28)"><i class="fa-solid fa-rocket fa-xs"></i>&nbsp;O'sishda</span>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ══ INTERESTS ══ -->
+<section id="interests" class="z1">
+<div class="wrap">
+  <div class="rev">
+    <p class="sec-eye">// Gaming & Hobbies</p>
+    <h2 class="sec-h2">Mening Qiziqishlarim</h2>
+    <div class="sec-bar"></div>
+  </div>
+
+  <div class="games-grid">
+    <div class="gm-card rev">
+      <span class="gm-em">🎯</span>
+      <h3>Counter-Strike 1.6</h3>
+      <p>Taktik otishma janrining abadiy afsonasi. Reflecslar, jamoaviy o'yin va sof mahorat.</p>
+      <span class="gtag">FPS · Klassik</span>
+    </div>
+    <div class="gm-card rev" style="transition-delay:.07s">
+      <span class="gm-em">🔫</span>
+      <h3>CS:GO / CS2</h3>
+      <p>Zamonaviy kiberesportning eng raqobatli maydoni. Skinlar, rank, professional turnirlar.</p>
+      <span class="gtag">FPS · Esport</span>
+    </div>
+    <div class="gm-card rev" style="transition-delay:.14s">
+      <span class="gm-em">⚽</span>
+      <h3>Dream League Soccer</h3>
+      <p>Mobil futbol dunyosining eng sifatlisi. Jamoangni qur, chempionatni zabt et!</p>
+      <span class="gtag">Mobil · Futbol</span>
+    </div>
+    <div class="gm-card rev" style="transition-delay:.21s">
+      <span class="gm-em">🏎️</span>
+      <h3>Car Games</h3>
+      <p>Tezlik, mahorat va adrenalin. Poyga trekidan ochiq dunyo yo'llarigacha.</p>
+      <span class="gtag">Yarish · Tezkor</span>
+    </div>
+  </div>
+
+  <!-- ACTION BUTTONS -->
+  <div class="action-zone rev">
+
+    <!-- ★ MEGA CTA — TEKIN SKINLAR ★ -->
+    <a href="https://t.me/rfl_pro_bot/join?startapp=ref7446390893"
+       target="_blank" rel="noopener noreferrer"
+       class="btn-mega">
+      <div>
+        <div class="btn-mega-label">
+          <span style="font-size:1.5rem">🎁</span>
+          CS:GO TEKIN SKINLAR OLISH — (BOT)
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="btn-mega-sub" style="text-align:center">
+          Telegram botiga kiring → Bepul skin oling → Do'stlaringizni taklif qiling!
+        </div>
+      </div>
+    </a>
+
+    <!-- Steam -->
+    <div class="steam-row">
+      <a href="https://steamcommunity.com/tradeoffer/new/?partner=774080404&token=eLVP4lWP"
+         target="_blank" rel="noopener noreferrer"
+         class="btn btn-steam">
+        <i class="fa-brands fa-steam fa-lg"></i> Steam-da Trade Taklif Yuborish
+      </a>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<!-- ══ SNAKE GAME ══ -->
+<section id="game" class="z1">
+<div class="wrap">
+  <div class="rev">
+    <p class="sec-eye">// Mini-Game · Vanilla JS</p>
+    <h2 class="sec-h2">Mening Ishlarim</h2>
+    <div class="sec-bar"></div>
+    <p style="color:var(--muted);font-size:.83rem;margin-bottom:2.2rem;max-width:560px">
+      Quyida men yozgan klassik Snake o'yinini sinab ko'ring.
+      <strong style="color:var(--text)">Klaviatura:</strong> Arrow tugmalar yoki WASD.
+      <strong style="color:var(--text)">Mobil:</strong> Quyidagi tugmachalar orqali boshqaring.
+    </p>
+  </div>
+
+  <div class="snake-shell rev">
+    <div class="snake-ui">
+      <!-- TOP ROW -->
+      <div class="s-top">
+        <div class="sbox">
+          <span class="slabel">Joriy Hisob</span>
+          <div class="sval sval-b" id="sc-score">0</div>
+        </div>
+        <div class="smsg" id="sc-msg">Boshlashga tayyor ✨</div>
+        <div class="sbox">
+          <span class="slabel">Eng Yuqori Natija</span>
+          <div class="sval sval-r" id="sc-hi">0</div>
+        </div>
+      </div>
+
+      <!-- CANVAS -->
+      <canvas id="sc" width="420" height="420"></canvas>
+
+      <!-- LEVEL BADGE -->
+      <div style="display:flex;justify-content:center;margin-top:.65rem">
+        <div class="speed-badge" id="lvl-badge">
+          <i class="fa-solid fa-gauge-high fa-xs"></i> Daraja: Oddiy
+        </div>
+      </div>
+
+      <!-- CONTROL BUTTONS -->
+      <div class="s-btns">
+        <button class="btn btn-blue" id="sbtn-start" onclick="snakeStart()">
+          <i class="fa-solid fa-play"></i> O'yinni Boshlash
+        </button>
+        <button class="btn btn-ghost" id="sbtn-restart" onclick="snakeRestart()" style="display:none">
+          <i class="fa-solid fa-rotate-right"></i> Qayta Boshlash
+        </button>
+      </div>
+
+      <!-- MOBILE DPAD -->
+      <div class="dpad" id="dpad">
+        <div class="drow">
+          <div class="dbtn void"></div>
+          <button class="dbtn" ontouchstart="mDir('U')" onclick="mDir('U')" aria-label="Yuqori">▲</button>
+          <div class="dbtn void"></div>
+        </div>
+        <div class="drow">
+          <button class="dbtn" ontouchstart="mDir('L')" onclick="mDir('L')" aria-label="Chap">◀</button>
+          <div class="dbtn void"></div>
+          <button class="dbtn" ontouchstart="mDir('R')" onclick="mDir('R')" aria-label="O'ng">▶</button>
+        </div>
+        <div class="drow">
+          <div class="dbtn void"></div>
+          <button class="dbtn" ontouchstart="mDir('D')" onclick="mDir('D')" aria-label="Pastga">▼</button>
+          <div class="dbtn void"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="z1">
+  <p>2026 <b>Xumoyun</b> — Toshkent, O'zbekiston 🇺🇿 &nbsp;·&nbsp; Barcha huquqlar himoyalangan</p>
+</footer>
+</body>
+<script src="javascript.js"></script>
+</html>
